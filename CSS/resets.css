@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    /* CORES */
+    --color-bg: #e9f4f9;
+    --bg-color-header: #ffffff;
+    --logoColorFont: #181818;
+}
+
+.darkModeColor:root{
+    --color-bg: #091317;
+    --bg-color-header: #010b0f;
+    --logoColorFont: #fcfcfc;
+}
+
+body {
+    background-color: var(--color-bg);
+}
